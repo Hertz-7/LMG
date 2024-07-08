@@ -1,0 +1,32 @@
+.artist-card {
+    max-height: 35rem;
+    max-width: 25rem;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .artist-image {
+    width: fit-content;
+    
+    overflow: hidden;
+    display: block; /* Removes bottom space/gap */
+  }
+  
+  .artist-name {
+    color: white !important;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 12px 0;
+  }
+  
+/*scale card on hover and make the transition slow*/
+.artist-card:hover{
+    transform: scale(1.05);
+    transition: transform 0.5s;
+  }
+  
+  .artist-card:hover .artist-name {
+    color: #f1f1f1;
+}

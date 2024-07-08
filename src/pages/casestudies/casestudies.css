@@ -1,0 +1,16 @@
+/* fonts.css */
+@font-face {
+    font-family: 'Gotham Medium';
+    src: url('../../assets/Gotham Medium/Gotham Medium.otf') format('opentype');
+    font-weight: medium;
+    font-style: normal;
+}
+
+.text-gotham {
+    font-family: 'Gotham Medium', sans-serif;
+}
+
+
+.custom-padding {
+    padding-left: 10rem; /* Adjust padding as needed */
+}

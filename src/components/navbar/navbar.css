@@ -1,0 +1,25 @@
+/* Base styles for large screens */
+.navbar-logo {
+    height: 6rem;  /* height for larger screens */
+    margin-left: 4rem;
+}
+
+.navbar-toggle-img {
+    height: 3rem;
+    width: 4rem;
+    margin-right: 3rem;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .navbar-logo {
+        height: 3rem;  /* smaller height for smaller screens */
+        margin-left: 2rem; /* smaller margin */
+    }
+
+    .navbar-toggle-img {
+        height: 2rem;
+        width: 2.5rem;
+        margin-right: 1.5rem;
+    }
+}

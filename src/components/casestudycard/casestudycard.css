@@ -1,0 +1,8 @@
+.casecard:hover{
+    transform: scale(1.05);
+    transition: transform 0.5s;
+}
+
+.casecard {
+    max-width: fit-content;
+}

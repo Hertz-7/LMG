@@ -1,0 +1,20 @@
+/* Custom CSS for transparent text with a white border */
+.artist-banner {
+    background-color: #b31217; /* Deep red background */
+    padding: 1.25rem; /* Tailwind's p-5 equivalent */
+    text-align: center;
+    font-size: 4em; /* Tailwind's text-5xl equivalent */
+    font-weight: bold; /* Tailwind's font-bold */
+    -webkit-text-stroke: 2px white; /* White text border */
+    color: transparent;
+    line-height: 1; /* Adjust line height to fit the design */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 640px) {
+    .artist-banner {
+      font-size: 2.5rem; /* Smaller text on small screens */
+      padding: 0.75rem; /* Smaller padding on small screens */
+    }
+  }
+  

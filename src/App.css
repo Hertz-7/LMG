@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-gradient-redblack{
+  background: linear-gradient(to right, #b31217, #000000);
+
+}
+.bg-gradient-blackred{
+  background: linear-gradient(to right, #000000, #b31217);
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+  background: #000000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: 'Gotham Medium';
+  src: url('./assets/Gotham Medium/Gotham Medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+div, h2, h3, p {
+  font-family: 'Gotham Medium', sans-serif;
+}
+@font-face {
+  font-family: 'Druk Text Bold';
+  src: url('./assets/Druk Text Family/DrukText-Bold-Trial.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  font-family: 'Druk Text Bold', sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
