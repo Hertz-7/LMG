@@ -6,3 +6,11 @@
 .casecard {
     max-width: fit-content;
 }
+
+
+@media screen and (max-width: 768px) {
+    .casecard {
+        transform: scale(0.9);
+    }
+    
+}

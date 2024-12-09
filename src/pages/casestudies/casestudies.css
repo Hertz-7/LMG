@@ -14,3 +14,16 @@
 .custom-padding {
     padding-left: 10rem; /* Adjust padding as needed */
 }
+
+
+
+@media (max-width: 768px) {
+    .custom-padding {
+        padding-left: 0rem; /* Adjust padding as needed */
+    }
+
+    /*scale down the card on mobile */
+    .case-card1{
+        transform: scale(0.2);
+    }
+}

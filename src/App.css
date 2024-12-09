@@ -11,6 +11,10 @@
   background: linear-gradient(to right, #000000, #b31217);
 
 }
+.bg-gradient-redblack-top{
+  background: linear-gradient(to top,#000000 , #b31217)
+}
+
 
 .App{
   background: #000000;
@@ -28,7 +32,7 @@ div, h2, h3, p {
 }
 @font-face {
   font-family: 'Druk Text Bold';
-  src: url('./assets/Druk Text Family/DrukText-Bold-Trial.otf') format('opentype');
+  src: url('./assets/Druk Wide Family/DrukWide-Heavy-Trial.otf') format('opentype');
   font-weight: bold;
   font-style: normal;
 }
@@ -37,3 +41,13 @@ h1 {
   font-family: 'Druk Text Bold', sans-serif;
 }
 
+.burger-menu {
+  font-family: 'Gotham Medium';
+  
+}
+.bg-reddark {
+  background-color: #b31217;
+}
+.color-reddark {
+  color: #b31217;
+}

@@ -10,6 +10,8 @@ module.exports = {
       backgroundImage: {
         'gradient-redblack': 'linear-gradient(to right, #b31217, #d01318)',
         'gradient-to-b': 'linear-gradient(to bottom, #000000, #ffffff)',
+        
+        
       }
     }
   },

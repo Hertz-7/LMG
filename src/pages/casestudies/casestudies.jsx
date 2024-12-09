@@ -28,46 +28,41 @@ function CasePage({ image, name }) {
             <div className="border-t-2 border-white"></div>
             <Banner title="CASE STUDIES" />
             <Container className='bg-black mt-24'>
-                <Row className='align-items-center mb-4'>
+                {/* <Row className='align-items-center mb-4'>
                     <Col xs={12} lg={6} className="bg-black  text-white text-left justify-center align-middle">
-                        <p className="text-gotham">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt, nisi eget vehicula euismod, ligula libero tincidunt nulla, et elementum urna sapien at nunc.</p>
+                        <p className="text-gotham text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt, nisi eget vehicula euismod, ligula libero tincidunt nulla, et elementum urna sapien at nunc.</p>
                     </Col>
                     <Col xs={12} lg={6} className="bg-black custom-padding">
                         <CaseCard className="max-w-60" name={casestudies[0].name} image={casestudies[0].image} />
                     </Col>
-                </Row>
-                <Row className='m-24 align-items-center'>
+                </Row> */}
+                <Row className=' align-items-center mb-2 '>
                     <Col xs={12} lg={6} className="bg-black">
-                        <CaseCard className="max-w-60" name={casestudies[1].name} image={casestudies[1].image} />
+                        <CaseCard className="max-w-60 " name={casestudies[1].name} image={casestudies[1].image} />
                     </Col>
                     <Col xs={12} lg={6} className="bg-black text-white text-left justify-center align-middle">
-                        <p className="text-gotham">The legendary heavy metal band, known for their intense performances and distinctive masks, partnered with the horror video game Dead by Daylight. Facilitated by Love Music Global, this collaboration brought Slipknot's dark, theatrical energy into the gaming world.
-                As part of the campaign, Slipknot's branding and music were seamlessly integrated into the game, enhancing its eerie atmosphere. Custom skins, masks, and music tracks from Slipknot were featured, creating a unique and immersive crossover event. We also produced a high-energy promotional video showcasing the intense synergy between Slipknot's music and Dead by Daylight's horror elements.
-                The collaboration included prime in-game airtime with 30-second and 90-second ads played at key moments, ensuring maximum visibility and engagement. This strategic placement aligned Slipknot’s brand with the thrilling, immersive experience of the game.
-                This partnership significantly boosted engagement metrics for Dead by Daylight, attracting a wider audience and enhancing player experience. It also reinforced Slipknot’s presence in the gaming community, demonstrating Love Music Global's expertise in creating impactful and memorable brand experiences. As we continue to innovate, our work with Slipknot and Dead by Daylight highlights our commitment to delivering creative and engaging brand collaborations, seamlessly blending music and gaming.</p>
+                        <p className="text-gotham md:text-xl text-sm   md:p-0 px-4">Slipknot, the legendary heavy metal band known for their intense performances and distinctive masks, partnered with the horror video game Dead by Daylight through Love Music Global. This collaboration brought Slipknot's dark energy into the game, featuring custom skins, masks, and music tracks that enhanced the eerie atmosphere. A high-energy promotional video showcased the synergy between Slipknot's music and the game’s horror elements. Strategic in-game ads ensured maximum visibility, boosting engagement for Dead by Daylight and reinforcing Slipknot’s presence in the gaming community. This partnership highlights Love Music Global's expertise in creating impactful brand collaborations.
+                        </p>
                     </Col>
                 </Row>
-                <Row className='align-items-center mb-4'>
+                <Row className='align-items-center mb-2'>
+                    <Col xs={12} lg={6} className="bg-black ">
+                        <CaseCard className="max-w-60 " name={casestudies[2].name} image={casestudies[2].image} />
+                    </Col>
                     <Col xs={12} lg={6} className="bg-black  text-white text-left justify-center align-middle">
-                        <p className="text-gotham">Known for their energetic performances and global fanbase, 5SOS is a band that blends rock and pop, creating electrifying concert experiences. Their tours are synonymous with high energy, making them an ideal partner for dynamic brands.
-                In a strategic collaboration, Love Music Global connected Diesel with 5 Seconds of Summer, integrating Diesel’s ads throughout their tour, including major venues like Pier 17. Diesel’s ads were prominently displayed during 5SOS’s concerts, seamlessly fitting into the high-energy atmosphere and reaching a broad audience.
-                To amplify this partnership, we created a promotional video that highlighted the collaboration between Diesel and 5SOS, capturing the essence of both the brand and the band. This video, along with the in-concert advertisements, provided Diesel with significant visibility and engagement, aligning their brand with the vibrant spirit of 5SOS’s performances.
-                This collaboration not only enhanced Diesel’s brand presence but also showcased Love Music Global's ability to create impactful and memorable brand experiences. The partnership 
-                highlighted our expertise in music marketing, demonstrating how we bring brands and artists together to create extraordinary moments.</p>
+                        <p className="text-gotham md:text-xl text-sm  md:p-0 px-4">5 Seconds of Summer, the band that keeps winning our hearts over and over, teamed up with Disney in a vibrant collaboration. The partnership featured exclusive Disney-themed performances during 5SOS concerts, incorporating iconic Disney songs and visuals into the band’s setlist.
+                        This creative integration provided fans with a unique, nostalgic experience that seamlessly married 5SOS’s music with Disney's timeless charm. The collaboration enhanced concert-goers' experience by blending familiar Disney melodies with the band’s signature sound, creating a magical concert atmosphere.
+                        This partnership proved to be a hit, offering fans a one-of-a-kind musical journey while solidifying the promotional prowess of both 5SOS and Disney in captivating diverse audiences.</p>
                     </Col>
-                    <Col xs={12} lg={6} className="bg-black custom-padding">
-                        <CaseCard className="max-w-60" name={casestudies[2].name} image={casestudies[2].image} />
-                    </Col>
+                    
                 </Row>
-                <Row className='m-24 align-items-center'>
+                <Row className=' align-items-center mb-2'>
                     <Col xs={12} lg={6} className="bg-black">
-                        <CaseCard className="max-w-60" name={casestudies[3].name} image={casestudies[3].image} />
+                        <CaseCard className="max-w-60 " name={casestudies[3].name} image={casestudies[3].image} />
                     </Col>
                     <Col xs={12} lg={6} className="bg-black text-white text-left justify-center align-middle">
-                        <p className="text-gotham">The genre-bending artist, celebrated for hits like "Say So" and "Kiss Me More," teamed up with BMW for a unique campaign during her concert tour. Love Music Global facilitated this exciting collaboration, bringing BMW's innovative ads directly to Doja Cat's vibrant audience.
-                We provided BMW with prime airtime, featuring 30-second and 90-second ads played three times just before Doja Cat took the stage. This strategic timing ensured BMW’s message resonated perfectly with the concertgoers, aligning the brand with Doja Cat's adventurous and dynamic persona.
-                The collaboration created an immersive experience, where BMW's sleek and modern ads set the tone for Doja Cat’s electrifying performances. This partnership significantly enhanced BMW's visibility and engagement, showcasing Love Music Global's expertise in crafting impactful brand integrations within the music industry. As Doja Cat danced and sang to her chart-topping hits, BMW's presence reinforced the brand's innovative and stylish image, captivating a diverse and energetic audience.
-                As we continue to bridge the gap between brands and artists, our work with Doja Cat and BMW exemplifies our commitment to delivering creative and engaging brand experiences. This partnership not only highlighted BMW’s forward-thinking approach but also underscored Doja Cat’s influence and appeal across diverse demographics, making every concert an unforgettable fusion of music and brand storytelling.</p>
+                        <p className="text-gotham md:text-xl text-sm  md:p-0 px-4 " >Doja Cat, renowned for her dynamic performances and eclectic style, perfectly complements AEW’s high-energy branding. In a strategic move by Love Music Global, the "Paint the Town Red" video package promoting AEW's Women’s Division premiered before Doja Cat's concerts, blending seamlessly into the pre-show excitement. This collaboration not only amplified the concert experience but also spotlighted AEW’s commitment to empowering women, enhancing visibility and engagement among Doja Cat’s diverse, energetic fanbase. This partnership showcases Love Music Global's ability to craft innovative, resonant brand experiences within the entertainment industry.
+                        </p>
                     </Col>
                 </Row>
             </Container>
